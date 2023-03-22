@@ -1,0 +1,20 @@
+<html>
+<input  name="contrasenya" 
+        type="text" value="secret" 
+        pattern="[\w-]{10-10}" required
+>
+<style>
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:valid {
+    background-color: palegreen;
+}
+
+input:invalid {
+    background-color: lightpink;
+}
+</style>
+</html>
